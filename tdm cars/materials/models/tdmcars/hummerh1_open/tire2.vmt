@@ -1,0 +1,20 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/tdmcars/hummerh1/tire2"
+	"$bumpmap" "models/tdmcars/hummerh1/tire2_nrm"
+	"$nocull" "1"
+	"$phong" "1"
+	"$phongexponent" "10"
+	"$phongboost" "0.3"	
+	"$phongfresnelranges"	"[1 1 1]"
+	"$nodecal" "1"
+	"$colorfix" "{255 255 255}"
+	"Proxies"
+	{
+		"Equals"
+		{
+			srcVar1 $colorfix
+			resultVar	$color
+		}
+	}
+}

@@ -1,0 +1,27 @@
+"VertexlitGeneric"
+{
+	"$basetexturetransform" "center .5 .5 scale 200 200 rotate 0 translate 0 0"
+	"$basetexture" "models/tdmcars/shared/skin"
+	"$bumpmap" "models/tdmcars/shared/interior_leather2_dark_nrm"
+	"$nodecal" "1"
+	"$phong" "1" 
+	"$phongboost" ".15" 
+	"$phongfresnelranges" "[1 1 1]" 
+	"$phongexponent" 3
+	"$rimlight" "1"
+	"$rimlightexponent" "10"
+	"$rimlightboost" "3"
+	"$detail" "models/tdmcars/noblem600/interior_lod0"
+	"$detailscale" "1"
+	"$detailblendfactor" "1"
+	"$detailblendmode" "0"
+	"$colorfix" "{255 255 255}"
+	"Proxies"
+	{
+		"Equals"
+		{
+			srcVar1 $colorfix
+			resultVar	$color
+		}
+	}
+}

@@ -1,0 +1,18 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/tdmcars/civictyper/steeringwheel_leather"
+	"$bumpmap" "models/tdmcars/civictyper/steeringwheel_leather_nrm"
+	"$blendtintbybasealpha" 1
+	"$nodecal" "1"
+	"$halflambert" 1
+	"$phong" "1" 
+	"$phongboost" ".3" 
+	"$phongfresnelranges" "[.2 .1 .3]" 
+	"$phongexponent" 3
+	//"$phongalbedotint" "1"
+    	//"$basemapalphaphongmask" "1"
+	"$rimlight" "1"
+	"$rimlightexponent" "10"
+	"$rimlightboost" ".1"
+	"$rimmask" "1"
+}

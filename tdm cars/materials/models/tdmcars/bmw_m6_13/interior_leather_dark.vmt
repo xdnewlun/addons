@@ -1,0 +1,23 @@
+"VertexlitGeneric"
+{
+	"$basetexturetransform" "center .5 .5 scale 1 1 rotate 0 translate 0 0"
+	"$basetexture" "models/tdmcars/bmw_m6_13/interior_leather_dark"
+	"$bumpmap" "models/tdmcars/bmw_m6_13/interior_leather_dark_nrm"
+	"$nodecal" "1"
+	"$phong" "1" 
+	"$phongboost" ".3" 
+	"$phongfresnelranges" "[1 1 1]" 
+	"$phongexponent" 3
+	"$rimlight" "1"
+	"$rimlightexponent" "50"
+	"$rimlightboost" "1"
+	"$colorfix" "{150 150 150}"
+	"Proxies"
+	{
+		"Equals"
+		{
+			srcVar1 $colorfix
+			resultVar	$color
+		}
+	}
+}

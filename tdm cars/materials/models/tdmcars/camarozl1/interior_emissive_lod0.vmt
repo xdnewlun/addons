@@ -1,0 +1,17 @@
+"UnlitGeneric"
+{
+	"$basetexture" "models/tdmcars/camarozl1/interior_emissive_lod0"
+	"$alphatest" "1"
+	"$model" "1"
+	"$allowalphatocoverage" "1"
+	"$nodecal" "1"
+	"$colorfix" "{255 255 255}"
+	"Proxies"
+	{
+		"Equals"
+		{
+			srcVar1 $colorfix
+			resultVar	$color
+		}
+	}
+}

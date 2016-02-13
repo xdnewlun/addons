@@ -1,0 +1,22 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/tdmcars/rx8/generic02_steeringwheel_diffuse"
+	"$bumpmap" "models/tdmcars/rx8/generic02_steeringwheel_normals"
+	"$nodecal" "1"
+	"$phong" "1" 
+	"$phongboost" ".15" 
+	"$phongfresnelranges" "[1 1 1]" 
+	"$phongexponent" 3
+	"$rimlight" "1"
+	"$rimlightexponent" "10"
+	"$rimlightboost" "3"
+	"$colorfix" "{30 30 30}"
+	"Proxies"
+	{
+		"Equals"
+		{
+			srcVar1 $colorfix
+			resultVar	$color
+		}
+	}
+}

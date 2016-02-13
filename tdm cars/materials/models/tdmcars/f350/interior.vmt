@@ -1,0 +1,26 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/tdmcars/f350/interior"
+	"$halflambert" 1
+	"$phong" "1" 
+	"$phongboost" "0.5" 
+	"$phongfresnelranges" "[.3 .5 1]" 
+	"$phongexponent" 50
+	"$rimlight" "1"
+	"$rimlightexponent" "10"
+	"$rimlightboost" ".1"
+	"$rimmask" "1"
+	"$detail" "models/tdmcars/f350/interior_emissive"
+	"$detailscale" "1"
+	"$detailblendfactor" "20"
+	"$detailblendmode" "1"
+	"$colorfix" "{255 255 255}"
+	"Proxies"
+	{
+		"Equals"
+		{
+			srcVar1 $colorfix
+			resultVar	$color
+		}
+	}
+}

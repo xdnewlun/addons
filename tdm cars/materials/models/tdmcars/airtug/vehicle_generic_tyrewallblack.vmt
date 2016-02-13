@@ -1,0 +1,10 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/tdmcars/airtug/vehicle_generic_tyrewallblack"
+	"$bumpmap" "models/tdmcars/airtug/wheel_nrm"
+	"$blendtintbybasealpha" 1
+	"$phong" "1"
+	"$phongexponent" "10"
+	"$phongboost" "0.3"	
+	"$phongfresnelranges"	"[0.1 2 0]"
+}

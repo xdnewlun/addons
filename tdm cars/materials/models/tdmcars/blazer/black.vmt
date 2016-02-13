@@ -1,0 +1,13 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/tdmcars/blazer/black"
+	"$bumpmap" "models/tdmcars/blazer/black_nrm"
+	"$phong" "1"
+	"$phongexponent" "10"
+	"$phongboost" "0.3"	
+	"$phongfresnelranges"	"[0.1 2 0]"
+	$detail "models/tdmcars/shared/noise"
+	$detailscale "200"
+	$detailblendfactor "0.03"
+	$detailblendmode "0"
+}

@@ -1,0 +1,20 @@
+"VertexlitGeneric"
+{
+	"$basetexturetransform" "center .5 .5 scale 1700 1700 rotate 0 translate 0 0"
+	"$basetexture" "models/tdmcars/shared/skin"
+	"$bumpmap" "models/tdmcars/mitsu_evo8/leather2_nrm"
+	"$halflambert" 1
+	"$phong" "1" 
+	"$phongboost" ".5" 
+	"$phongfresnelranges" "[.5 .2 2]" 
+	"$phongexponent" 3
+	"$colorfix" "{50 50 50}"
+	Proxies
+	{
+		Equals
+		{
+			srcVar1	$colorfix
+			resultVar	$color
+		}
+	}
+}

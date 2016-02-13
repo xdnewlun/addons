@@ -1,0 +1,10 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/tdmcars/raptor/tirea0"
+	"$bumpmap" "models/tdmcars/raptor/tirea0_bump"
+	"$blendtintbybasealpha" 1
+	"$phong" "1"
+	"$phongexponent" "10"
+	"$phongboost" "0.3"	
+	"$phongfresnelranges"	"[0.1 2 0]"
+}

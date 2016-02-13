@@ -1,0 +1,23 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/tdmcars/shared/chrome"
+	"$bumpmap"    "models/tdmcars/emergency/lightbar/reflector_nrm"
+	"$nodecal" "1"
+	"$phong" "1" 
+	"$phongboost" "2" 
+	"$phongfresnelranges" "[3 1 1]" 
+	"$phongexponent" 150
+	"$envmap" "env_cubemap"
+	"$envmaptint" "[0.7 0.7 0.7]"
+	"$halflambert" 1
+	"$lightwarptexture" "models/tdmcars/shared/lightfix"
+	"$colorfix" "{150 150 150}"
+	"Proxies"
+	{
+		"Equals"
+		{
+			srcVar1 $colorfix
+			resultVar	$color
+		}
+	}
+}

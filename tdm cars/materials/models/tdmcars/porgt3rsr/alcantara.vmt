@@ -1,0 +1,24 @@
+"VertexlitGeneric"
+{
+	"$basetexturetransform" "center .5 .5 scale 2 2 rotate 0 translate 0 0"
+	"$basetexture" "models/tdmcars/shared/alcantara"
+	"$bumpmap" "models/tdmcars/shared/alcantara_nrm"
+	"$rimmask" "1"
+	"$phongexponenttexture" "models/tdmcars/shared/alcantara_exmask"
+	"$phong" "1" 
+	"$phongboost" "0" 
+	"$phongfresnelranges" "[1 1 1]" 
+	"$phongexponent" 1
+	"$rimlight" "1"
+	"$rimlightexponent" "2"
+	"$rimlightboost" "4"
+	"$colorfix" "{20 20 20}"
+	"Proxies"
+	{
+		"Equals"
+		{
+			srcVar1 $colorfix
+			resultVar	$color
+		}
+	}
+}

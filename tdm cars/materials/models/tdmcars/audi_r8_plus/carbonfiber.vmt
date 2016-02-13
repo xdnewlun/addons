@@ -1,0 +1,22 @@
+"VertexlitGeneric"
+{
+	"$basetexturetransform" "center .5 .5 scale 2 2 rotate 0 translate 0 0"
+	"$basetexture" "models/tdmcars/shared/carbonFiber"
+	"$bumpmap" "models/tdmcars/shared/carbonFiberNormal"
+	"$nodecal" 1
+	"$phong" 1
+	"$phongexponent" 20
+	"$phongfresnelranges"	"[0.3 0.2 1]"
+	"$phongboost"	1
+	$envmap env_cubemap
+	$envmaptint "[1.5 1.5 1.5]"
+	"$colorfix" "{120 120 120}"
+	"Proxies"
+	{
+		"Equals"
+		{
+			srcVar1 $colorfix
+			resultVar	$color
+		}
+	}
+}

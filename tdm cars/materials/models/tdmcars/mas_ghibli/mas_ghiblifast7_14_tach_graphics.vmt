@@ -1,0 +1,15 @@
+"UnlitGeneric"
+{
+	"$basetexture" "models/tdmcars/mas_ghibli/mas_ghiblifast7_14_tach_graphics"
+	"$model" "1"
+	"$nodecal" "1"
+	"$colorfix" "{255 255 255}"
+	"Proxies"
+	{
+		"Equals"
+		{
+			srcVar1 $colorfix
+			resultVar	$color
+		}
+	}
+}

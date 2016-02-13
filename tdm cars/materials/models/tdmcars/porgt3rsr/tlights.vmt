@@ -1,0 +1,24 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/tdmcars/porgt3rsr/lights"
+	"$bumpmap" "models/tdmcars/porgt3rsr/lights_nrm"
+	"$translucent" "1"
+	"$nodecal" "1"
+	"$halflambert" 1
+	"$phong" "1" 
+	"$phongboost" "1" 
+	"$phongfresnelranges" "[1 1 1]" 
+	"$phongexponent" 50
+	"$envmap" "env_cubemap"
+	"$envmaptint" "[0.04 0.04 0.04]"
+	"$normalmapalphaenvmapmask" 1
+	"$colorfix" "{255 255 255}"
+	"Proxies"
+	{
+		"Equals"
+		{
+			srcVar1 $colorfix
+			resultVar	$color
+		}
+	}
+}

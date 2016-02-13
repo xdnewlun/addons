@@ -1,0 +1,19 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/tdmcars/cooper4x4/Tex_0230_6"
+	"$bumpmap" "models/tdmcars/cooper4x4/Tex_0230_6_nrm"
+	"$phong" "1"
+	"$phongexponent" "10"
+	"$phongboost" "0.2"	
+	"$phongfresnelranges"	"[1 1 1]"
+	"$nodecal" "1"
+	"$colorfix" "{255 255 255}"
+	"Proxies"
+	{
+		"Equals"
+		{
+			srcVar1 $colorfix
+			resultVar	$color
+		}
+	}
+}

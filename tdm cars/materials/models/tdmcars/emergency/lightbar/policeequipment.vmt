@@ -1,0 +1,21 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/tdmcars/emergency/lightbar/policeequipment"
+	"$bumpmap" "models/tdmcars/shared/glass_nm"
+	"$alphatest" "1"
+	"$allowalphatocoverage" "1"
+	"$nodecal" "1"
+	"$phong" "1" 
+	"$phongboost" "1" 
+	"$phongfresnelranges" "[0.1 0.5 1]" 
+	"$phongexponent" 5
+	"$colorfix" "{255 255 255}"
+	"Proxies"
+	{
+		"Equals"
+		{
+			srcVar1 $colorfix
+			resultVar	$color
+		}
+	}
+}

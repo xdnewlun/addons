@@ -1,0 +1,22 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/tdmcars/maz_furai/nodamage"
+	"$bumpmap" "models/tdmcars/shared/skin_nm"
+	"$nodecal" "1"
+	"$phong" 1
+	"$phongexponent" 5
+	"$phongboost"	0.2
+	"$phongfresnelranges" "[1 1 1]"
+	"$rimlight" "1"
+	"$rimlightexponent" "10"
+	"$rimlightboost" "5"
+	"$colorfix" "{255 255 255}"
+	"Proxies"
+	{
+		"Equals"
+		{
+			srcVar1 $colorfix
+			resultVar	$color
+		}
+	}
+}

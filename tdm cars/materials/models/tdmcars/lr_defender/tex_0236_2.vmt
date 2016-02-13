@@ -1,0 +1,25 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/tdmcars/lr_defender/Tex_0236_2"
+	"$bumpmap" "models/tdmcars/lr_defender/Tex_0236_2_nrm"
+	"$alphatest" "1"
+	"$allowalphatocoverage" "1"
+	"$nodecal" "1"
+	"$phong" "1" 
+	"$phongboost" "0.03" 
+	"$phongfresnelranges" "[1 1 1]" 
+	"$phongexponent" 2
+	"$detail" "models/tdmcars/lr_defender/Tex_0236_emissive"
+	"$detailscale" "1"
+	"$detailblendfactor" "100"
+	"$detailblendmode" "1"
+	"$colorfix" "{255 255 255}"
+	"Proxies"
+	{
+		"Equals"
+		{
+			srcVar1 $colorfix
+			resultVar	$color
+		}
+	}
+}

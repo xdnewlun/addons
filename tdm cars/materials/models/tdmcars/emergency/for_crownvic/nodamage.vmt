@@ -1,0 +1,17 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/tdmcars/emergency/for_crownvic/nodamage"
+	"$bumpmap" "models/tdmcars/emergency/for_crownvic/nodamage_nrm"
+	"$phong" "1"
+	"$phongexponent" "20"
+	"$phongboost" ".5"	
+	"$colorfix" "{255 255 255}"
+	"Proxies"
+	{
+		"Equals"
+		{
+			srcVar1 $colorfix
+			resultVar	$color
+		}
+	}
+}

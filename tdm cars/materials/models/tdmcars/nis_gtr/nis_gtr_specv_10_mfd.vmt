@@ -1,0 +1,15 @@
+"UnlitGeneric"
+{
+	"$basetexture" "models/tdmcars/nis_gtr/nis_gtr_specv_10_mfd"
+	"$alphatest" "1"
+	"$allowalphatocoverage" "1"
+	"$colorfix" "{255 255 255}"
+	"Proxies"
+	{
+		"Equals"
+		{
+			srcVar1 $colorfix
+			resultVar	$color
+		}
+	}
+}

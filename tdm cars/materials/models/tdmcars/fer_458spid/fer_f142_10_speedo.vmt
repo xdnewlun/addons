@@ -1,0 +1,15 @@
+"UnlitGeneric"
+{
+	"$basetexture" "models/tdmcars/fer_458spid/fer_f142_10_speedo"
+	"$model" "1"
+	"$nodecal" "1"
+	"$colorfix" "{255 255 255}"
+	"Proxies"
+	{
+		"Equals"
+		{
+			srcVar1 $colorfix
+			resultVar	$color
+		}
+	}
+}

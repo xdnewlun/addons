@@ -1,0 +1,11 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/tdmcars/mere63/steeringwheel_leather"
+	"$bumpmap" "models/tdmcars/mere63/leather2_nrm"
+	"$blendtintbybasealpha" 1
+	"$halflambert" 1
+	"$phong" "1" 
+	"$phongboost" ".3" 
+	"$phongfresnelranges" "[1 1 1]" 
+	"$phongexponent" 3
+}

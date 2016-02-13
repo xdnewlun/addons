@@ -1,0 +1,10 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/tdmcars/challenger70/wood"
+	"$bumpmap"    "models/tdmcars/challenger70/wood_nrm"
+	"$blendtintbybasealpha" 1
+	"$phong" "1" 
+	"$phongboost" "2" 
+	"$phongfresnelranges" "[.3 .5 1]" 
+	"$phongexponent" 10
+}

@@ -1,0 +1,29 @@
+"VertexlitGeneric"
+{
+	"$basetexturetransform" "center .5 .5 scale 80 80 rotate 0 translate 0 0"
+	"$basetexture" "models/tdmcars/shared/skin"
+	"$bumpmap" "models/tdmcars/shared/skin_normal"
+	"$nodecal" "1"
+	"$phong" 1
+	"$phongtint" "[150 0 150]"
+	"$phongexponent" 5
+	"$phongboost"	0.5
+	"$phongfresnelranges" "[0.1 1 1]"
+	"$envmap" "env_cubemap"
+	"$envmaptint" "[0.07 0.07 0.07]"
+	"$basealphaphongmask" "1"
+	"$normalmapalphaenvmapmask" 1
+	"$detail" "models/tdmcars/hsvw427_pol/skin"
+	"$detailscale" "1"
+	"$detailblendfactor" "1"
+	"$detailblendmode" "2"
+	"$colorfix" "{255 255 255}"
+	"Proxies"
+	{
+		"Equals"
+		{
+			srcVar1 $colorfix
+			resultVar	$color
+		}
+	}
+}

@@ -1,0 +1,12 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/tdmcars/crownvic_taxi/misc"
+	"$bumpmap" "models/tdmcars/crownvic_taxi/misc_nrm"
+	"$blendtintbybasealpha" 1
+	"$nodecal" "1"
+	"$phong" "1" 
+	"$phongboost" "0.05" 
+	"$phongfresnelranges" "[1 1 1]" 
+	"$phongexponent" 40
+
+}

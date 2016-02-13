@@ -1,0 +1,19 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/tdmcars/shared/wood"
+	"$bumpmap"    "models/tdmcars/shared/wood_nrm"
+	"$phong" "1" 
+	"$phongboost" "2" 
+	"$phongfresnelranges" "[.3 .5 1]" 
+	"$phongexponent" 10
+	"$nodecal" "1"
+	"$colorfix" "{100 100 100}"
+	"Proxies"
+	{
+		"Equals"
+		{
+			srcVar1 $colorfix
+			resultVar	$color
+		}
+	}
+}

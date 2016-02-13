@@ -1,0 +1,22 @@
+"VertexlitGeneric"
+{
+	"$basetexturetransform" "center .5 .5 scale 1 1 rotate 0 translate 0 0"
+	"$basetexture" "models/tdmcars/grandche/steeringwheel_leather"
+	"$bumpmap" "models/tdmcars/grandche/leather2_nrm"
+	"$phong" "1" 
+	"$phongboost" ".15" 
+	"$phongfresnelranges" "[1 1 1]" 
+	"$phongexponent" 3
+	"$rimlight" "1"
+	"$rimlightexponent" "10"
+	"$rimlightboost" "3"
+	"$colorfix" "{180 180 180}"
+	"Proxies"
+	{
+		"Equals"
+		{
+			srcVar1 $colorfix
+			resultVar	$color
+		}
+	}
+}

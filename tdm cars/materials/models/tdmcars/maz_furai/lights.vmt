@@ -1,0 +1,17 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/tdmcars/maz_furai/lights"
+	"$nodecal" "1"
+	"$selfillum" "1"
+	"$selfillummask" "models/tdmcars/maz_furai/lights_emissive"
+	$selfillumtint "[4 4 4]"
+	"$colorfix" "{255 255 255}"
+	"Proxies"
+	{
+		"Equals"
+		{
+			srcVar1 $colorfix
+			resultVar	$color
+		}
+	}
+}

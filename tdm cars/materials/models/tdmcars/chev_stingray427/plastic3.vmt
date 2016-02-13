@@ -1,0 +1,23 @@
+"VertexlitGeneric"
+{
+	"$basetexturetransform" "center .5 .5 scale 0.2 0.2 rotate 0 translate 0 0"
+	"$basetexture" "models/tdmcars/shared/skin"
+	"$bumpmap" "models/tdmcars/shared/interior_leather_dark_nrm"
+	"$nodecal" "1"
+	"$phong" "1" 
+	"$phongboost" ".15" 
+	"$phongfresnelranges" "[1 1 1]" 
+	"$phongexponent" 3
+	"$rimlight" "1"
+	"$rimlightexponent" "10"
+	"$rimlightboost" "3"
+	"$colorfix" "{10 10 10}"
+	"Proxies"
+	{
+		"Equals"
+		{
+			srcVar1 $colorfix
+			resultVar	$color
+		}
+	}
+}

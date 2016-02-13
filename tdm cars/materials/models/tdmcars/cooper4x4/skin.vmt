@@ -1,0 +1,16 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/tdmcars/cooper4x4/skin"
+	"$bumpmap" "models/tdmcars/cooper4x4/skin_nrm"
+	"$blendtintbybasealpha" "1"
+	"$nodecal" "1"
+	"$phong" 1
+	"$phongexponent" 25
+	"$phongboost"	0.1
+	"$phongfresnelranges" "[1 1 1]"
+	"$rimlight" 1
+	"$rimlightboost" 0.5
+	"$envmap" "env_cubemap"
+	"$envmaptint" "[0.03 0.03 0.03]"
+	"$normalmapalphaenvmapmask" 1
+}

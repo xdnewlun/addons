@@ -1,0 +1,19 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/tdmcars/dod_challenger15/wood"
+	"$bumpmap"    "models/tdmcars/shared/glass_nm"
+	"$phong" "1" 
+	"$phongboost" "2" 
+	"$phongfresnelranges" "[.3 .5 1]" 
+	"$phongexponent" 10
+	"$nodecal" "1"
+	"$colorfix" "{255 255 255}"
+	"Proxies"
+	{
+		"Equals"
+		{
+			srcVar1 $colorfix
+			resultVar	$color
+		}
+	}
+}

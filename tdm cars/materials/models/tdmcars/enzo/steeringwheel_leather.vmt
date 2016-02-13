@@ -1,0 +1,19 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/tdmcars/enzo/steeringwheel_leather"
+	"$bumpmap" "models/tdmcars/enzo/leather2_nrm"
+	"$basetexturetransform" "center .5 .5 scale 2 2 rotate -10 translate 0 0"
+	"$blendtintbybasealpha" 1
+	"$nodecal" "1"
+	"$halflambert" 1
+	"$phong" "1" 
+	"$phongboost" ".5" 
+	"$phongfresnelranges" "[.5 .2 2]" 
+	"$phongexponent" 3
+	//"$phongalbedotint" "1"
+    	//"$basemapalphaphongmask" "1"
+	"$rimlight" "1"
+	"$rimlightexponent" "10"
+	"$rimlightboost" ".1"
+	"$rimmask" "1"
+}

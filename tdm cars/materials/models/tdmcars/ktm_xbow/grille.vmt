@@ -1,0 +1,24 @@
+"VertexlitGeneric"
+{
+	"$basetexturetransform" "center .5 .5 scale 5 5 rotate 0 translate 0 0"
+	"$basetexture" "models/tdmcars/shared/grille"
+	"$bumpmap" "models/tdmcars/shared/grille_nrm"
+	"$nodecal" "1"
+	"$halflambert" 1
+	"$phong" "1" 
+	"$phongboost" "1" 
+	"$phongfresnelranges" "[.3 .5 1]" 
+	"$phongexponent" 100
+	"$envmap" "env_cubemap"
+	"$envmaptint" "[0.2 0.2 0.2]"
+	"$normalmapalphaenvmapmask" 1
+	"$colorfix" "{255 255 255}"
+	"Proxies"
+	{
+		"Equals"
+		{
+			srcVar1 $colorfix
+			resultVar	$color
+		}
+	}
+}

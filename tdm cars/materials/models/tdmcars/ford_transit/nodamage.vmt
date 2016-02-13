@@ -1,0 +1,11 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/tdmcars/ford_transit/nodamage"
+	"$bumpmap" "models/tdmcars/shared/skin_nm"
+	"$blendtintbybasealpha" 1
+	"$nodecal" "1"
+	"$phong" "1" 
+	"$phongboost" "0.05" 
+	"$phongfresnelranges" "[1 1 1]" 
+	"$phongexponent" 40
+}

@@ -1,0 +1,17 @@
+"UnlitGeneric"
+{
+	"$basetexture" "models/tdmcars/fer_458spid/fer_f142_10_gauge_needle"
+	"$model" "1"
+	"$nodecal" "1"
+	"$alphatest" "1"
+	"$allowalphatocoverage" "1"
+	"$colorfix" "{255 255 255}"
+	"Proxies"
+	{
+		"Equals"
+		{
+			srcVar1 $colorfix
+			resultVar	$color
+		}
+	}
+}

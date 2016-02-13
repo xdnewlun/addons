@@ -1,0 +1,25 @@
+"VertexlitGeneric"
+{
+	"$basetexturetransform" "center .5 .5 scale 0.7 1 rotate 0 translate 0 0"
+	"$basetexture" "models/tdmcars/fer_lafer/fer_laferrari_13_gauge_needle"
+	"$detail" "models/tdmcars/fer_lafer/fer_laferrari_13_gauge_needle"
+	"$detailscale" "1"
+	"$detailblendfactor" "1"
+	"$detailblendmode" "5"
+	"$bumpmap" "models/tdmcars/shared/glass_nm"
+	"$alphatest" "1"
+	"$allowalphatocoverage" "1"
+	"$phong" "1" 
+	"$envmap" "env_cubemap"
+	"$envmaptint" "[0.3 0.3 0.3]"
+	"$normalmapalphaenvmapmask" 1
+	"$colorfix" "{255 255 255}"
+	"Proxies"
+	{
+		"Equals"
+		{
+			srcVar1 $colorfix
+			resultVar	$color
+		}
+	}
+}

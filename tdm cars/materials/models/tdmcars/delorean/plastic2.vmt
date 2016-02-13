@@ -1,0 +1,16 @@
+"VertexlitGeneric"
+{
+	"$basetexturetransform" "center .5 .5 scale 2 2 rotate 0 translate 0 0"
+	"$basetexture" "models/tdmcars/delorean/plastic2"
+	"$bumpmap" "models/tdmcars/shared/skin_nm"
+	"$nodecal" "1"
+	"$phong" 1
+	"$phongexponent" 60
+	"$phongboost"	1.2
+	"$phongfresnelranges" "[1 1 1]"
+	"$rimlight" 1
+	"$rimlightboost" 0.00
+	"$envmap" "env_cubemap"
+	"$envmaptint" "[0.1 0.1 0.1]"
+	"$normalmapalphaenvmapmask" 1
+}

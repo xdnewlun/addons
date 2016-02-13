@@ -1,0 +1,22 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/tdmcars/kia_fortekoup/wheel2"
+	"$bumpmap" "models/tdmcars/kia_fortekoup/wheel2_nrm"
+	"$blendtintbybasealpha" "1"
+	"$nodecal" "1"
+	"$phong" "1" 
+	"$phongboost" "1" 
+	"$phongfresnelranges" "[1 1 1]" 
+	"$phongexponent" 50
+	"$envmap" "env_cubemap"
+	"$envmaptint" "[0.1 0.1 0.1]"
+	"$normalmapalphaenvmapmask" 1
+	Proxies
+	{
+		Equals
+		{
+			srcVar1	$color
+			resultVar	$envmaptint
+		}
+	}
+}

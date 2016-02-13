@@ -1,0 +1,13 @@
+"UnlitGeneric"
+{
+	"$basetexture" "models/tdmcars/landrover12/digital"
+	"$colorfix" "{255 255 255}"
+	"Proxies"
+	{
+		"Equals"
+		{
+			srcVar1 $colorfix
+			resultVar	$color
+		}
+	}
+}

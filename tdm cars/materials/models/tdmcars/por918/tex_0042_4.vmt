@@ -1,0 +1,16 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/tdmcars/por918/Tex_0042_4"
+	"$nodecal" "1"
+	"$selfillum" "1"
+	$selfillumtint "[2 2 2]"
+	"$colorfix" "{255 255 255}"
+	"Proxies"
+	{
+		"Equals"
+		{
+			srcVar1 $colorfix
+			resultVar	$color
+		}
+	}
+}

@@ -1,0 +1,17 @@
+"UnlitGeneric"
+{
+	"$basetexture" "models/tdmcars/jeep_wrangler_fnf/interior_emissive"
+	"$alphatest" "1"
+	"$allowalphatocoverage" "1"
+	"$model" "1"
+	"$nodecal" "1"
+	"$colorfix" "{255 255 255}"
+	"Proxies"
+	{
+		"Equals"
+		{
+			srcVar1 $colorfix
+			resultVar	$color
+		}
+	}
+}

@@ -1,0 +1,6 @@
+list.Set( "SCarEngineSounds", "#|Adv| 350z", { carsound_enginesound = "advanced_engine_sounds/350z/" } ) 
+list.Set( "SCarEngineSounds", "#|Adv| BMW M3 E92", { carsound_enginesound = "advanced_engine_sounds/m3e92/" } ) 
+list.Set( "SCarEngineSounds", "#|Adv| Bugatti Veyron", { carsound_enginesound = "advanced_engine_sounds/veyron/" } ) 
+list.Set( "SCarEngineSounds", "#|Adv| Lamborghini Gallardo", { carsound_enginesound = "advanced_engine_sounds/gallardo/" } ) 
+list.Set( "SCarEngineSounds", "#|Adv| Saab 99 Turbo", { carsound_enginesound = "advanced_engine_sounds/saab99/" } ) 
+list.Set( "SCarEngineSounds", "#|Adv| Ford Transit", { carsound_enginesound = "advanced_engine_sounds/transit/" } ) 

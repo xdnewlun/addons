@@ -1,0 +1,16 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/tdmcars/raptor/steeringwheel_leather"
+	"$bumpmap" "models/tdmcars/raptor/leather2_nrm"
+	"$blendtintbybasealpha" 1
+	"$nodecal" "1"
+	"$halflambert" 1
+	"$phong" "1" 
+	"$phongboost" ".5" 
+	"$phongfresnelranges" "[.5 .2 2]" 
+	"$phongexponent" 3
+	"$rimlight" "1"
+	"$rimlightexponent" "10"
+	"$rimlightboost" ".1"
+	"$rimmask" "1"
+}

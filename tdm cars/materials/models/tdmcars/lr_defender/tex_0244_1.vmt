@@ -1,0 +1,21 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/tdmcars/lr_defender/Tex_0244_1"
+	"$bumpmap" "models/tdmcars/lr_defender/Tex_0244_nrm"
+	"$alphatest" "1"
+	"$allowalphatocoverage" "1"
+	"$nodecal" "1"
+	"$phong" "1" 
+	"$phongboost" "0.03" 
+	"$phongfresnelranges" "[1 1 1]" 
+	"$phongexponent" 2
+	"$colorfix" "{255 255 255}"
+	"Proxies"
+	{
+		"Equals"
+		{
+			srcVar1 $colorfix
+			resultVar	$color
+		}
+	}
+}

@@ -1,0 +1,17 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/tdmcars/gt05/skin2"
+	"$bumpmap" "models/tdmcars/shared/skin_nm"
+	"$blendtintbybasealpha" 1
+	"$phong" 1
+	"$phongexponent" 200
+	"$phongboost"	0.7
+	"$phongfresnelranges" "[1 1 1]"
+	"$envmap" "env_cubemap"
+	"$envmaptint" "[0.07 0.07 0.07]"
+	"$normalmapalphaenvmapmask" 1
+	$detail "models/tdmcars/shared/noise"
+	$detailscale "250"
+	$detailblendfactor "0.3"
+	$detailblendmode "0"
+}

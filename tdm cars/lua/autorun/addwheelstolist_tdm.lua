@@ -1,0 +1,6 @@
+AddCSLuaFile( "autorun/addwheelstolistbasic.lua" ) 
+list.Set( "scar_wheels", "#TDM_BWM", { Material = "vgui/wheel_tdm_bmw", wheelchanger_model = "models/tdmscars/bmwm3e92_wheel.mdl" , Value = "BMW M3 E92" } )
+list.Set( "scar_wheels", "#TDM_TRANSIT", { Material = "vgui/wheel_tdm_transit", wheelchanger_model = "models/tdmscars/transit_wheel.mdl" , Value = "Ford Transit" } )
+list.Set( "scar_wheels", "#TDM_SAAB99", { Material = "vgui/wheel_tdm_saab99", wheelchanger_model = "models/tdmscars/saab99_wheel.mdl" , Value = "Saab 99 Turbo" } )
+list.Set( "scar_wheels", "#TDM_VEYRONSS", { Material = "vgui/wheel_tdm_veyronss", wheelchanger_model = "models/tdmscars/veyronss_wheel.mdl" , Value = "Bugatti Veyron SS" } )
+list.Set( "scar_wheels", "#TDM_350Z", { Material = "vgui/wheel_tdm_350z", wheelchanger_model = "models/tdmscars/350z_wheel.mdl" , Value = "TDM_350z" } )

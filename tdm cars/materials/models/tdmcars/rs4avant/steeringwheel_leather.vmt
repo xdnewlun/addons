@@ -1,0 +1,17 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/tdmcars/rs4avant/steeringwheel_leather"
+	"$bumpmap" "models/tdmcars/rs4avant/leather2_nrm"
+	"$blendtintbybasealpha" 1
+	"$halflambert" 1
+	"$phong" "1" 
+	"$phongboost" ".5" 
+	"$phongfresnelranges" "[.5 .2 2]" 
+	"$phongexponent" 3
+	//"$phongalbedotint" "1"
+    	//"$basemapalphaphongmask" "1"
+	"$rimlight" "1"
+	"$rimlightexponent" "10"
+	"$rimlightboost" ".1"
+	"$rimmask" "1"
+}

@@ -1,0 +1,19 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/tdmcars/shared/chrome"
+	"$bumpmap" "models/tdmcars/mereclass/aluminium_nrm"
+	"$nodecal" "1"
+	"$phong" "1" 
+	"$phongboost" "0.5" 
+	"$phongfresnelranges" "[1 1 1]" 
+	"$phongexponent" 2
+	"$colorfix" "{180 180 180}"
+	"Proxies"
+	{
+		"Equals"
+		{
+			srcVar1 $colorfix
+			resultVar	$color
+		}
+	}
+}

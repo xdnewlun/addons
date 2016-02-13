@@ -1,0 +1,10 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/tdmcars/f100/nodamage"
+	"$bumpmap" "models/tdmcars/shared/skin_nm"
+	"$blendtintbybasealpha" 1
+	"$phong" "1" 
+	"$phongboost" "0.02" 
+	"$phongfresnelranges" "[1 1 1]" 
+	"$phongexponent" 10
+}
